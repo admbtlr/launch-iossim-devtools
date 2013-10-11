@@ -9,6 +9,9 @@
   "scripts": {
     "test": "mocha test /*.js"
   },
+  "bin": {
+    "launch-iossim-devtools": "./bin/launch-iossim-devtools"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/adamvert/launch-iossim-devtools.git"
