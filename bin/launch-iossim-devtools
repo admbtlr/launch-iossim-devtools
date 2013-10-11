@@ -1,5 +1,4 @@
 #!/usr/bin/env node
 var launchiossimdevtools = require('../lib/main');
 
-var args = process.argv.slice(2);
-console.log(launchiossimdevtools.launchDevTools(args));
+launchiossimdevtools.launchDevTools();

@@ -3,12 +3,6 @@
   "version": "0.0.1",
   "description": "Launch Safari dev tools for a Cordova app running in iOS sim",
   "main": "lib/main.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha test /*.js"
-  },
   "bin": {
     "launch-iossim-devtools": "./bin/launch-iossim-devtools"
   },
@@ -25,8 +19,4 @@
   "bugs": {
     "url": "https://github.com/adamvert/launch-iossim-devtools/issues"
   },
-  "devDependencies": {
-     "mocha": "",
-     "should": ""
-   }
 }
